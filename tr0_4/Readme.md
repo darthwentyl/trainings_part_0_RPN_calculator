@@ -3,7 +3,7 @@ Please integrate your calculator library prepared in exercise **tr0_3** with my 
 
 The GUI operates on **MyHex** numbers type.
 
-# Requirements
+## Requirements
 The integration shouldn't change the original source code. Your integration should be done by **ICalculatorDevice** implementation - **CalculatorDevice** is a file which you can modify.
 
 If you need you can add new objects and modify **CMakeLists.txt** files. New objects should be covered by UT. When you finish please check memory usage by valgrind.
@@ -20,7 +20,7 @@ make -j8
 ./calculator
 ```
 
-## UT
+## Unit tests
 ```
 cd calculator_tests
 mkdir build
@@ -30,7 +30,7 @@ make -j8
 ./calculator_tests
 ```
 
-## Coverage
+## Test coverage
 ```
 cd calculator_tests
 ./coverage.sh

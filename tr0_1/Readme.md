@@ -22,7 +22,7 @@ cmake ..
 make -j8
 ```
 
-# Test coverage
+## Test coverage
 Prepare a bash script which prepares the tests coverage report. Let's script launch by command below
 
 ```
