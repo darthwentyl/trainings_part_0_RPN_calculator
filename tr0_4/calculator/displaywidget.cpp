@@ -1,7 +1,6 @@
 #include "displaywidget.h"
 #include "ui_displaywidget.h"
 
-#include <lib/Calculator.h>
 #include "errormessagebox.h"
 
 DisplayWidget::DisplayWidget(QWidget *parent)
