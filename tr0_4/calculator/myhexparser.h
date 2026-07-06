@@ -3,10 +3,9 @@
 
 #include <functional>
 
-#include <Calculator.h>
 #include <myhex.h>
 
-class MyHexParser : public mw::NumberParser<MyHex, MyHexParser>
+class MyHexParser
 {
 public:
     MyHex parse(const std::string& str, std::function<int(int)> isNumber);
